@@ -1,6 +1,3 @@
-# Webscraping_Risk_Metrics
-Python project for scraping Brazil's CDS historical data using BeautifulSoup, and organizing it into a single DataFrame, following object-oriented principles.
-
 ## Understanding CDS and Its Importance
 
 A Credit Default Swap (CDS) is a financial derivative that allows an investor to "swap" or offset their credit risk with that of another investor. In simple terms, it's a type of insurance against the default of a borrower. If the borrower defaults, the CDS provides the protection buyer with compensation, typically the face value of the debt. The Brazilian CDS reflects the perceived credit risk of the country. A higher CDS value indicates a higher perceived risk of default, meaning investors see lending to Brazil as riskier. This metric is crucial for understanding the broader economic and financial stability of the country, as well as investor sentiment.
