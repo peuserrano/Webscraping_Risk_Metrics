@@ -23,7 +23,7 @@ Este projeto consiste em um scraper para coletar dados históricos de Credit Def
 
 ## USO
 
-No script principal, você pode ajustar os prazos de CDS que deseja coletar e iniciar o processo:
+1. No script principal, você pode ajustar os prazos de CDS que deseja coletar e iniciar o processo:
 
    ```bash
    if __name__ == "__main__":
