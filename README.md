@@ -14,4 +14,4 @@ Este projeto consiste em um scraper para coletar dados históricos de Credit Def
 
    ```bash
    git clone https://github.com/peuserrano/Webscraping_Risk_Metrics.git
-   cd cds-brazil-scraper
+   cd Webscraping_Risk_Metrics
