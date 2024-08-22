@@ -18,4 +18,5 @@ Este projeto consiste em um scraper para coletar dados históricos de Credit Def
 
 2. Instale as dependências:
 
+   ```bash
    pip install -r requirements.txt
