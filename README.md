@@ -20,3 +20,25 @@ Este projeto consiste em um scraper para coletar dados históricos de Credit Def
 
    ```bash
    pip install -r requirements.txt
+
+## USO
+
+No script principal, você pode ajustar os prazos de CDS que deseja coletar e iniciar o processo:
+```bash
+if __name__ == "__main__":
+    headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'}
+    lista_cds = ['cds-1-year', 'cds-2-years', 'cds-3-years', 'cds-4-years', 'cds-5-years', 'cds-7-years', 'cds-10-years']
+
+    scraper = CDSDataScraper(headers)
+
+    for ano_cds in lista_cds:
+        scraper.fetch_data(ano_cds)
+
+    base_cds = scraper.get_combined_data()
+    print(base_cds)
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
