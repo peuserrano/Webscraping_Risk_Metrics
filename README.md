@@ -15,3 +15,7 @@ Este projeto consiste em um scraper para coletar dados históricos de Credit Def
    ```bash
    git clone https://github.com/peuserrano/Webscraping_Risk_Metrics.git
    cd Webscraping_Risk_Metrics
+
+2. Instale as dependências:
+
+   pip install -r requirements.txt
