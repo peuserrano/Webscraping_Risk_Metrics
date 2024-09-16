@@ -1,0 +1,7 @@
+# requirements.txt
+
+pandas
+beautifulsoup4
+lxml
+matplotlib
+seaborn
